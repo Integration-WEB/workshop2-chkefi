@@ -1,0 +1,22 @@
+$primary-color:#ff752f;
+
+body{
+color:$primary-color}
+
+
+.button{
+
+
+    display:inline-block;
+    color: $primary-color;
+    text-align:center;
+    border: solid 2px $primary-color;
+
+}
+
+.button-alert{
+    a{
+        @extend .button;
+        border-radius: 4px;
+    }
+}
